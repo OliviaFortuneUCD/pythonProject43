@@ -1,6 +1,6 @@
 import pandas as pd
 covid = pd.read_csv("COVID.csv")
-
+#This is my code 
 # Choose entries with county Name of Cork.
 Corkonly  = covid[covid['CountyName'] == 'Cork']
 Dublinonly  = covid[covid['CountyName'] == 'Dublin']
