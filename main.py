@@ -8,3 +8,4 @@ Belfast  = covid[covid['CountyName'] == 'Belfast']
 
 print(Corkonly.to_string())
 print(Dublinonly.to_string())
+print(Belfast.to_string())
